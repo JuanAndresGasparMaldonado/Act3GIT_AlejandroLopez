@@ -32,13 +32,13 @@ public class IncrementoNumeros {
         int menor = Math.min(num1, num2);
         int mayor = Math.max(num1, num2);
 
-        // Mostrar los números incrementando de 7 en 7
-        System.out.println("Números comprendidos entre " + menor + " y " + mayor + ", incrementando de 7 en 7:");
-        for (int i = menor; i <= mayor; i += 7) {
+        // Mostrar los números incrementando de 10 en 10
+        System.out.println("Números comprendidos entre " + menor + " y " + mayor + ", incrementando de 10 en 10:"); //Modifico para que vaya de 10 en 10 
+        for (int i = menor; i <= mayor; i += 10) {
             System.out.println(i);
 
             // Comprobar si el tercer número coincide con algún valor del rango
-            if (i < mayor && num3 > i && num3 <= i + 7 && num3 >= menor) {
+            if (i < mayor && num3 > i && num3 <= i + 10 && num3 >= menor) {
                 System.out.println(num3); // Mostrar el tercer número si está en el rango
             }
         }
